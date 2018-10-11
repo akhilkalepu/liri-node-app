@@ -147,7 +147,7 @@ function concertThis() {
         } else {
             console.log("something's wrong");
         }
-        fs.appendFile("log.txt", "\n--------------------------------------------------" + "\nConcert This: " + input + "\n" + "Venue: " + bandsInTown[i].venue.name + "\n" + "Location: " + bandsInTown[i].venue.city + "\n" + "Date: " + moment(bandsInTown[i].datetime, "YYYY-MM-DD[T]HH:mm:ss").format("MM/DD/YY") + "\n--------------------------------------------------", function (err) {
+        fs.appendFile("log.txt", "\n--------------------------------------------------" + "\nConcert This: " + input + "\n" + "Venue: " + bandsInTown[0].venue.name + "\n" + "Location: " + bandsInTown[0].venue.city + "\n" + "Date: " + moment(bandsInTown[0].datetime, "YYYY-MM-DD[T]HH:mm:ss").format("MM/DD/YY") + "\n--------------------------------------------------", function (err) {
             if (err) {
                 console.log(err);
             }
@@ -157,7 +157,7 @@ function concertThis() {
 
 // ---------DO WHAT IT SAYS---------
 // I HAD TO COPY AND PASTE THE FUNCTIONS
-// COULDN'T FIGURE OUT HOW TO CALL THE FUNCTIONS FROM BEFORE
+// COULDN'T FIGURE OUT HOW TO CALL THE FUNCTIONS FROM BEFORE WITHOUT GETTING AN ERROR
 
 function doWhatItSays() {
     fs.readFile("random.txt", "UTF-8", function (error, data) {
