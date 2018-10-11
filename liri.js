@@ -132,7 +132,7 @@ function concertThis() {
         process.argv[3] = input;
     };
 
-    var queryUrl = "https://rest.bandsintown.com/artists/" + input + "/events?app_id=codingbootcamp";
+    var queryUrl = "https://rest.bandsintown.com/artists/" + input + "/events?app_id=4282a4517e96097afa0e49c9ce109f00";
 
     request(queryUrl, function (error, response, body) {
         if (!error && response.statusCode === 200) {
