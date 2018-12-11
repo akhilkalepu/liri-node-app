@@ -1,5 +1,5 @@
 # liri-node-app
-A Language, Interpretation and Recognition app that communicates with Bands In Town, Spotify and OMDB. This app operates on localhost though the commandline.
+A Language, Interpretation and Recognition app that communicates with Bands In Town, Spotify and OMDB. This app operates on localhost though the command line.
 
 ![Imgur](https://i.imgur.com/lgkPaNG.gif)
 
