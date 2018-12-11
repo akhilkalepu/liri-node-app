@@ -7,10 +7,12 @@ Through the command line, LIRI Bot communicates with the above-mentioned APIs to
 
 To use the app, simply type:
 
-"node liri.js <command> <input>"
+"node liri.js [liri command]"
 
 Spotify: spotify-this-track [track name]
+
 OMDB: movie-this [movie name]
+
 Bands In Town: concert-this [artist/band name]
 
 You can also edit the command and input in random.txt and call it with the following:
