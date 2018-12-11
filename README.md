@@ -1,5 +1,7 @@
 # liri-node-app
-A Language, Interpretation and Recognition app that communicates with Bands In Town, Spotify and OMDB.
+A Language, Interpretation and Recognition app that communicates with Bands In Town, Spotify and OMDB. This app operates on localhost though the commandline.
+
+![Imgur](https://i.imgur.com/lgkPaNG.gif)
 
 Through the command line, LIRI Bot communicates with the above-mentioned APIs to return track, film and concert information. The app will also log the information in log.txt.
 
